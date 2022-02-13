@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.42;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+.container {
+    max-width: 865px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header__container {
+    max-width: 1032px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__list {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.nav__item {
+    margin-left: 33px;
+}
+
+.about__container {
+    display: flex;
+}
+
+.about__info {
+    padding-right: 12%;
+}
+
+.about__avatar {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.about__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.recent-post{
+    position: absolute;
+width: 1152px;
+height: 396px;
+left: 0px;
+top: 595px;
+
+background: #EDF7FA;
+}
+.recent-post__title{
+    position: absolute;
+    width: 129px;
+    height: 60px;
+    left: 148px;
+    top: 602px;
+    
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;    
+    display: flex;
+    align-items: flex-end;    
+    color: #21243D;
+}
+.recent-post__link{
+    position: absolute;
+width: 208px;
+height: 20px;
+left: 796px;
+top: 622px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+text-align: right;
+color: #00A8CC;
+}
+.recen-posts__sabtitle{
+    position: absolute;
+width: 374px;
+height: 85px;
+left: 171px;
+top: 688px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 38px;
+color: #21243D;
+}
+.recen-posts__info{
+    position: absolute;
+width: 374px;
+height: 34px;
+left: 171px;
+top: 790px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #21243D;
+}
+.recen-posts__text{
+    position: absolute;
+width: 368px;
+height: 117px;
+left: 171px;
+top: 835px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+color: #21243D;
+}
+.recen-posts__sabtitl{
+    position: absolute;
+width: 374px;
+height: 85px;
+left: 609px;
+top: 688px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 38px;
+color: #21243D;
+}
+.recen-posts__infa{
+    position: absolute;
+width: 374px;
+height: 34px;
+left: 609px;
+top: 790px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+color: #21243D;
+}
+.recen-posts__texd{
+    
+position: absolute;
+width: 368px;
+height: 117px;
+left: 609px;
+top: 835px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+color: #21243D;
+}
